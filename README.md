@@ -6,7 +6,7 @@ This project is based on [GoogleKeepMenu](https://github.com/brechtm/GoogleKeepM
 
 ## Installation
 
-Binaries are available from [releases](https://github.com/brechtm/GoogleKeepMenu).
+Binaries are available from [releases](https://github.com/MuntashirAkon/GooglePasswordManager/releases).
 
 ## License
 
