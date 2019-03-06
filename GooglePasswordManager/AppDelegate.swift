@@ -21,8 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(NSMenuItem(title: "Quit GooglePasswordManager", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
         if let button = statusItem.button {
-//            button.title = "GPM"
-            button.image = NSImage(named:NSImage.Name("IconTemplate"))
+            button.image = NSImage(named:"IconTemplate")
             button.action = #selector(menuItemClicked(_:))
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
         }

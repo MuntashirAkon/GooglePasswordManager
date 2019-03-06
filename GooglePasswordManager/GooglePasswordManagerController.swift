@@ -27,8 +27,8 @@ class GooglePasswordManagerController: NSViewController {
 
 extension GooglePasswordManagerController {
     static func freshController() -> GooglePasswordManagerController {
-        let storyboard = NSStoryboard(name: NSStoryboard.Name(rawValue: "Main"), bundle: nil)
-        let identifier = NSStoryboard.SceneIdentifier(rawValue: "GooglePasswordManager")
+        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+        let identifier = "GooglePasswordManager"
         guard let viewcontroller = storyboard.instantiateController(withIdentifier: identifier) as? GooglePasswordManagerController else {
             fatalError("Cannot Find GooglePasswordManager!")
         }
